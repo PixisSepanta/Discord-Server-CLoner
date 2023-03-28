@@ -1,0 +1,25 @@
+{
+  "name": "discord-server-cloner",
+  "version": "1.0.0",
+  "description": "Clone any Discord Server without Admin Privileges",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonfarah/DiscordServerCloner.git"
+  },
+  "author": "Simon Farah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonfarah/Discord-Server-Cloner/issues"
+  },
+  "homepage": "https://github.com/simonfarah/Discord-Server-Cloner#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "image-to-base64": "^2.2.0",
+    "input": "^1.0.1"
+  }
+}
